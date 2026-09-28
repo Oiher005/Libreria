@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+}
+
+.flex {
+    border: 2px solid black;
+    margin-right: 10px;
+    color: black;
+    padding-left: 5px
+}  
+
+.left {
+    flex: 0.25;
+    background-color: lightgreen;
+}
+
+.right {
+    flex: 0.75;
+    background-color: lightblue;
+} 

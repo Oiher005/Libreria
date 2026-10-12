@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link href="css/estilos.css" rel="stylesheet">
 		<script src="js/main.js" type="module"> </script>
 	</head>
@@ -7,12 +8,39 @@
 
 	<div class="flex-container">
 
+	  <!-- Columna Izquierda: Imagen y botones de navegación -->
 	  <div class="flex left">
-	    Flex Column 1
+	    <img id="portada" src="" alt="Portada del libro" style="max-width: 100%; height: auto;">
+	    
+	    <div class="botones-navegacion">
+	      <button id="btnAnterior">&lt;&lt;</button>
+	      <button id="btnSiguiente">&gt;&gt;</button>
+	    </div>
 	  </div>
 
+	  <!-- Columna Derecha: Formulario con los datos del libro -->
 	  <div class="flex right">
-	    Flex Column 2
+	    <div class="campo">
+	      <label for="titulo">Título:</label>
+	      <input type="text" id="titulo">
+	    </div>
+
+	    <div class="campo">
+	      <label for="autor">Autor:</label>
+	      <input type="text" id="autor">
+	    </div>
+
+	    <div class="campo">
+	      <label for="fecha">Fecha / Año:</label>
+	      <input type="text" id="fecha">
+	    </div>
+
+	    <div class="campo">
+	      <label for="isbn">ISBN:</label>
+	      <input type="text" id="isbn">
+	    </div>
+
+	    <button id="btnBuscar">Buscar</button>
 	  </div>
 
 	</div>
